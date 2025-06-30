@@ -26,15 +26,32 @@ module purge
 
 #### replatedness
 
+# 1. ANGSD run to generate GL files
+
+
 #!/bin/bash
 
+module load angsd
+
+chr=GCA_041834305.1_ASM4183430v1_genomic_autosomes.txt
+bamlist=sorted_bam_file_paths_refined_filteredbydepth.txt
+out=ngsrelate.refined.noMinDepth.prep
+
+#inds=60
+angsd -GL 1 -rf ${chr} -out ${out} -doMaf 1 -nThreads 10 -minMaf 0.05 -doGlf 3 -doMajorMinor 1 -bam ${bamlist} -uniqueOnly 1 -remove_bads 1 -only_proper_pairs 1 -skipTriallelic 1 -minMapQ 30 -minQ 30
+
+
+# 2. ngsrelate run to calculate pairwise relatedness:
+
+#!/bin/bash
 
 module purge
 module load ngsrelate/2.0 
 
 input=ngsrelate.refined.noMinDepth.prep.glf.gz
 samples=sorted_bam_file_paths_refined_filteredbydepth.txt
-num_inds=58
+num_inds=60
+
 
 # count the # of sites:
 zcat ngsrelate.refined.noMinDepth.prep.mafs.gz | tail -n +2 | wc -l > sites_count_refined_noMinDepth.txt
