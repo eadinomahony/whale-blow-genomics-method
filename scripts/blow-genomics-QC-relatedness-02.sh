@@ -7,7 +7,7 @@ module purge
 module load samtools/1.21
 module load bedtools/2.31.0
 
-for BAM in $(cat SRR_accession_keys.txt) # list all of these Bph00161_nuDNA_aligned_sorted_unique.bam with absolute path
+for BAM in $(cat files.names.txt)
 do
 
 INDIR=directory/path/here
