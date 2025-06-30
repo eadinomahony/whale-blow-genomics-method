@@ -1,3 +1,7 @@
+################################################################################
+################################################################################
+
+##### O'Mahony et al. (submitted June 2025) Nature Methods
 ##### perfect sample approach blow samples methods papers
 
 # Set working directory to folder that this R file is in
