@@ -6,5 +6,5 @@ Please cite:
 
 Maintained by Éadin N. O'Mahony (enao1@st-andrews.ac.uk).
 
-A project in collaboration with the Gitga'at First Nation and BC Whales (www.bcwhales.org). We thank the Gitga'at First Nation, Kitasoo/Xai'xais First Nations, the Haisla First Nation and the Heiltsuk First Nation for their stewardship and collaboration. This work was carried out through a research agreement between the North Coast Cetacean Society (www.bcwhales.org) and the Gitga'at Oceans and Lands Department; and data was collected under the Department of Fisheries and Oceans research permit DFO XR 83 2014.
+A project in collaboration with the Gitga'at First Nation and the North Coast Cetacean Society. We thank the Gitga'at First Nation, Kitasoo/Xai'xais First Nations, the Haisla First Nation and the Heiltsuk First Nation for their stewardship and collaboration. This work was carried out through a research agreement between the North Coast Cetacean Society (www.bcwhales.org) and the Gitga'at Oceans and Lands Department; and data was collected under the Department of Fisheries and Oceans research permit DFO XR 83 2014.
 
