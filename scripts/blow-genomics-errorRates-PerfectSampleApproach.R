@@ -1,7 +1,7 @@
 ################################################################################
 ################################################################################
 
-##### O'Mahony et al. (submitted June 2025) Nature Methods
+##### O'Mahony et al. (submitted June 2025) 
 ##### perfect sample approach blow samples methods papers
 
 # Set working directory to folder that this R file is in
@@ -13,7 +13,7 @@ library(tidyr)
 library(purrr)
 library(ggbreak)
 
-errorest <- readr::read_table("../data/errorEst.txt")
+errorest <- readr::read_table("/Users/eadinomahony/Desktop/Desktop/WORK/PhD/BlowProject/Humpback-blow-genomics/data/errorEst.txt")
 head(errorest)
 tail(errorest)
 
